@@ -13,7 +13,7 @@
       <img height="200" alt="Screenshot_2022-12-22_at_23 08 11-removebg-preview" src="https://i.ibb.co/cXH04KJ/Or-Asaf-wedding-333-of-1156.jpgc" alt="Avatar photo of William Guerrand">
   </div>
   <div align=center>
-      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=VT323&size=35&duration=3500&pause=300&color=A89568&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Austinae;aka+William+Guerrand;Welcome+to+my+profile!;Description+of+myself%3A;Full+Stack+Developer;Inquisitive+by+nature;AI+enthusiast;Chess+lover;Confident+and+ambitious;Long-distance+athlete;Young+at+heart;Guitar+player;Thrill+seeker" alt="Typing SVG" /></a>
+      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=VT323&size=35&duration=3500&pause=300&color=A89568&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Nitsan+Cohen;Welcome+to+my+profile!;Description+of+myself%3A;Frontend+Developer;Inquisitive+by+nature;AI+enthusiast;Animal+lover;Confident+and+ambitious;Long-distance+athlete;Young+at+heart;Always+cerious;Thrill+seeker" alt="Typing SVG" /></a>
   </div>
 </div>
 
@@ -24,24 +24,37 @@
 
 <div align="left">
 
-```js
-/**
- * Represents me.
- * @constructor
- * @param {string} city - Paris, France.
- * @param {string} languagues - English, French.
- * @param {string} jobTitle - Full Stack Developer.
- * @param {string} specialization - Building full-fledged web applications.
- * @param {string} interests - AI, writing & problem-solving.
- * @param {string} hobbies - Climbing, reading, triathlons & playing music.
- * @param {string} education - BSc CompSci, Lancaster University.
- * @param {string} approachable - Yes, to collaborate on exciting projects, don't hesitate to react out.
- * @param {string} stength - Resolute.
- * @param {string} weakness - Shyness.
- * @param {Date} birthday - 14th of December 2000.
- * @throws {Punch} To any and all bugs.
- * @returns {Object} Austinae.
- */
+```ts
+interface Nitsan {
+    /**
+     * Represents me.
+     * @param city Harish, Israel.
+     * @param languages English, Hebrew.
+     * @param jobTitle Frontend Developer.
+     * @param specialization Building full-fledged web applications.
+     * @param interests AI, writing & problem-solving.
+     * @param hobbies Gardening, Animal care, Praying.
+     * @param education Self :)
+     * @param approachable Yes, to collaborate on exciting projects, don't hesitate to reach out.
+     * @param strength Problem solving.
+     * @param weakness Not leaving a problem until it is solved.
+     * @param birthday 24th of December 1988.
+     * @returns Nitsan object.
+     */
+    constructor(
+        city: string = 'Harish, Israel',
+        languages: string = 'English, Hebrew',
+        jobTitle: string = 'Frontend Developer',
+        specialization: string = 'Building full-fledged web applications',
+        interests: string = 'AI, writing & problem-solving',
+        hobbies: string = 'Gardening, Animal care, Praying',
+        education: string = 'Self :)',
+        approachable: string = 'Yes, to collaborate on exciting projects, don\'t hesitate to reach out',
+        strength: string = 'Problem solving',
+        weakness: string = 'Not leaving a problem until it is solved',
+        birthday: Date = new Date(1988, 11, 24) // Month is 0-based, so 11 represents December
+    ): Nitsan;
+}
 ```
 
 </div>
@@ -56,27 +69,20 @@
       <kbd>Programming Languages</kbd>
       <br>
       <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> 
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" /> 
+      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> 
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
     </kbd>
     <kbd>
       <kbd>Back-end</kbd>
       <br>
       <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" />
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
     </kbd>
      <kbd>
       <kbd>Mobile</kbd>
       <br>
       <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-native-original" />
     </kbd>
     <kbd>
       <kbd>Front-end</kbd>
@@ -86,16 +92,15 @@
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /> 
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" /> 
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain.svg" />
+      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original.svg" />
     </kbd>
     <kbd>
       <kbd>Database</kbd>
       <br>
       <br>
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" />
     </kbd>
     <br>
     <br>
@@ -115,32 +120,10 @@
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" />
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
+      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-plain.svg" />
     </kbd>
-    <kbd>
-      <kbd>Terminal Scripts</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" />
-    </kbd>
-    <kbd>
-      <kbd>Tools</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-      <img width="30px" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rubymine/rubymine-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" />
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" />
-  </kbd>
-     <kbd>
-      <kbd>Game Development</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
-    </kbd>
+
+
   </p>
 </div>
 </details>
@@ -173,7 +156,7 @@
 
 ## Let's Work on Your Project Together!
 
-If you have any questions about web development, writing mistake-free documentation or AI, feel free to <a href="mailto:guerrandw@gmail.com">contact me by email</a>, I won't bite, I promise.
+If you have any questions about web development, writing mistake-free documentation or AI, feel free to <a href="mailto:nitsan@cohen.codes">contact me by email</a>, I won't bite, I promise.
 
   </td>
   <td width="50%" valign="top">
